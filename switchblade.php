@@ -1,12 +1,12 @@
 <?php
 
-// Switchblade CC Checker - Developed from 1 August 2021 by @rizzyneck
-// Base from Andrymata - Made with ❤
-// Last updated 18 September 2021
+// Switchblade CC Checker - Developed from 2 dec 2022 by @RAYEN5344N
+// Base from 3NF_X - Made with ❤
+// Last updated 2 dec 2022
 // Webhook: https://api.telegram.org/bot<token>/setwebhook?url=<url>
 
 // BOT API Configuration
-$botToken = "TOKEN"; #<------------------- PUT YOUR TOKEN HERE------------->#
+$botToken = "5749031283:AAEeJR9WyAjLAAbAnpHRDTkEkkk1T9-GaKY"; #<------------------- PUT YOUR TOKEN HERE------------->#
 $website = "https://api.telegram.org/bot".$botToken;
 error_reporting(0);
 $update = file_get_contents('php://input');
